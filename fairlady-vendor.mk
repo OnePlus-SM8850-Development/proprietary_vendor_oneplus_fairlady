@@ -76,7 +76,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/MOS/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/MOS/acdb_cal.acdb \
-    vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/dw_ve_enpuv6.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/dw_ve_enpuv6.eai \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/up_ve_enpuv6_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv6_ha.eai \
     vendor/oneplus/fairlady/proprietary/odm/etc/acdbdata/up_ve_enpuv6_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv6_hh.eai \
@@ -1065,6 +1064,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/fairlady/proprietary/odm/lib64/camera/libpdCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam3.bin \
     vendor/oneplus/fairlady/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/fairlady/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/fairlady/proprietary/vendor/etc/acdbdata/canoe_mtp/acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/canoe_mtp/acdb_cal.acdb \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_apollo_list_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/fairlady/proprietary/vendor/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_deburnIn_dbvgain_config_AA616_P_7_A0020_dsc_cmd_mode_panel.xml \

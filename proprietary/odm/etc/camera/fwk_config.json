@@ -58,6 +58,8 @@
         "feature_multicamera_enable": true,
         "feature_syscamera_override_dataspace_enable": true,
         "feature_camerasdk_override_dataspace_enable": true,
+        "horizFovCam1": 73.96,
+        "vertFovCam1": 58.91,
         "feature_lazy_finish_fonfiguration_enable": true,
         "limit_3rd_app_size": [
             "com.mt.mtxx.mtxx.sub.preview",
@@ -592,5 +594,10 @@
         ],
         "limit_exposure_time_parameter":true,
         "limit_physical_multi_resolution_size":true
+    },
+    "com.android.cts.verifier": {
+        "isSmallSizeQCFACameraId": [
+            "1"
+        ]
     }
 }

@@ -139,10 +139,10 @@
   },
 
   "usecase_info":{
-    "sat_photo_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"capture_raw10_fullsize":"rear_sat"}],
-    "sat_photo_full_size_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"capture_raw10_fullsize":"rear_sat"}],
-    "sat_photo_debug_3a_sync_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"raw16_debug_3a_sync":"rear_main"}],
-    "sat_night_case":[{"preview":"rear_sat"}, {"raw16_output":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_yuv":"rear_tele"}, {"capture_raw10_dol":"rear_sat"}, {"preview_in_preview":"rear_sat"}],
+    "sat_photo_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"},  {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"capture_raw10_fullsize":"rear_sat"}],
+    "sat_photo_full_size_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"capture_raw10_fullsize":"rear_sat"}],
+    "sat_photo_debug_3a_sync_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"},  {"capture_yuv":"rear_tele"}, {"preview_in_preview":"rear_sat"}, {"capture_raw10_dol":"rear_sat"}, {"raw16_debug_3a_sync":"rear_main"}],
+    "sat_night_case":[{"preview":"rear_sat"}, {"raw16_output":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_tele"}, {"capture_raw10_dol":"rear_sat"}, {"preview_in_preview":"rear_sat"}],
     "under_water_picture_case": [{"capture_meta":"var_camera"}, {"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}, {"capture_raw10_dol":"var_camera"}],
     "under_water_video_case": [{"preview": "var_camera"}, {"video_recorder":"var_camera"}],
     "rear_dual_sat_night_case":[{"preview":"rear_dual_sat"}, {"raw16_output":"rear_dual_sat"}, {"raw_output":"rear_dual_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}],
@@ -170,7 +170,7 @@
     "simple_preview_case":[{"preview":"var_camera"}],
     "simple_photo_case":[{"preview":"var_camera"}, {"capture":"var_camera"}],
     "macro_capture_case":[{"preview":"var_camera"}, {"capture":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}, {"capture_raw10_dol":"var_camera"}],
-    "professional_case":[{"capture_meta":"rear_sat"}, {"preview":"var_camera"}, {"raw16_output":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"}, {"capture_yuv":"rear_wide"}, {"capture_yuv":"rear_tele"}, {"capture_raw_dol":"rear_sat"}, {"preview_in_preview":"rear_sat"}],
+    "professional_case":[{"capture_meta":"rear_sat"}, {"preview":"var_camera"}, {"raw16_output":"rear_sat"}, {"raw_output":"rear_sat"}, {"capture_yuv":"rear_main"},  {"capture_yuv":"rear_tele"}, {"capture_raw_dol":"rear_sat"}, {"preview_in_preview":"rear_sat"}],
     "professional_hqraw_case":[{"capture_meta":"rear_sat"}, {"preview":"rear_sat"}, {"raw16_output":"rear_main"}, {"raw16_output":"rear_wide"}, {"raw16_output":"rear_tele"}, {"capture_raw_mfnr":"rear_sat"}],
     "xpan_case":[{"preview":"var_camera"}, {"capture_raw":"var_camera"}, {"raw_output":"var_camera"}, {"capture_raw_dol":"var_camera"}],
     "front_night_case":[{"preview":"front_main"}, {"raw16_output":"front_main"}, {"raw_output":"front_main"}, {"capture":"front_main"}],
@@ -392,9 +392,6 @@
 
   "capture_stream_number":{
     "photo_mode": {
-      "rear_wide":{
-        "2dol":"2"
-      },
       "rear_main":{
         "2dol":"2"
       },
@@ -419,9 +416,6 @@
     },
 
     "under_water_mode": {
-      "rear_wide":{
-        "2dol":"2"
-      },
       "rear_main":{
         "2dol":"2"
       }
@@ -434,9 +428,6 @@
     },
 
     "professional_mode": {
-      "rear_wide":{
-        "2dol":"2"
-      },
       "rear_main":{
         "2dol":"2"
       },
@@ -449,9 +440,6 @@
     },
 
     "xpan_mode": {
-      "rear_wide":{
-        "2dol":"2"
-      },
       "rear_main":{
         "2dol":"2"
       },

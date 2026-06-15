@@ -8353,6 +8353,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libcamxcommonutils",
                 "libcamxcsl",
+                "liboplusdfx",
                 "libbinder_ndk",
                 "libosensenativeproxy_client",
                 "libhwconfigurationutil",

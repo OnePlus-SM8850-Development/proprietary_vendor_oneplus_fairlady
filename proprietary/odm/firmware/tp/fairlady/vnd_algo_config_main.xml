@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <algo>
-	<version>2026040301</version>
-	<algo-version>v2.0.26.302</algo-version>
+	<version>2026061501</version>
+	<algo-version>v2.0.29.319</algo-version>
 		<modules id="AlgoParam" enable="true" hint="">
 			<param name="prjId" type="u32" hint="">
 				<value>25821</value>
@@ -1321,7 +1321,7 @@
 		</modules>
 		<modules id="Glove" enable="true" hint="">
 			<param name="gloveEnterIdleThd" type="u32" hint="">
-				<value>70</value>
+				<value>65</value>
 				<range>0,1000</range>
 			</param>
 			<param name="gloveDetectPeakThd" type="u32" hint="">
